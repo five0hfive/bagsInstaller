@@ -1,34 +1,74 @@
 # bagsInstaller
 
-`bagsInstaller` is a small helper R package designed to install, verify, and manage all package dependencies required for running the BAGS workflow.  
-It provides simple commands to ensure that every required package is installed correctly, and includes a help function listing all available commands.
+`bagsInstaller` is a lightweight R package designed to help your colleagues quickly set up all dependencies required for running the BAGS project.  
+It installs CRAN packages, archived packages, checks for Rtools, and provides helper commands to launch the BAGS app with a single line.
 
 ---
 
 ## 📦 Features
 
-- Installs all BAGS dependencies with a single command  
-- Checks whether required packages are already installed  
-- Provides a help function explaining available commands  
-- Easy to share and easy to install
+- Automatically installs required CRAN packages
+- Installs archived packages (seqRFLP, worms, bold)
+- Checks for Rtools before compiling packages from source
+- Provides helper functions to run the BAGS app and view help
 
 ---
 
-## 🔧 Installation
+# 🔧 Installation Options
 
-You can install the package directly from the ZIP file downloaded from this repository:
+You can install this package in two ways:
+
+---
+
+## Option A — Install directly from GitHub (recommended)
+
+First install `devtools` (only needed once):
 
 ```r
-install.packages("path/to/bagsInstaller.zip", repos = NULL, type = "source")
+install.packages("devtools")
+```
 
-## 🔧 Usage
-library(bagsInstaller)
+Then install the package:
 
-# Install all required BAGS dependencies
+```r
+devtools::install_github("five0hfive/bagsInstaller")
+```
+---
+
+## Option B — Install from a ZIP file
+
+1. Download the project as a `.zip` file from GitHub
+2. Install it manually in R:
+
+```r
+install.packages("C:/path/to/bagsInstaller.zip", repos = NULL, type = "source")
+```
+
+---
+
+#  Usage
+
+### Install all required dependencies
+```r
 install_bags_dependencies()
+```
 
-# Run the BAGS main workflow (if implemented)
+### Run BAGS
+```r
 run_bags()
+```
 
-# See all available commands
+### Show available commands
+```r
 bags_help()
+```
+
+---
+
+# 🧩 Available Functions
+
+| Function | Description |
+|---------|-------------|
+| `install_bags_dependencies()` | Installs all CRAN + archived packages needed for BAGS. |
+| `run_bags()` | Launches the BAGS Shiny application. |
+| `bags_help()` | Lists all available helper commands from this package. |
