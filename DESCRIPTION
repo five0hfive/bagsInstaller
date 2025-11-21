@@ -1,0 +1,17 @@
+Package: bagsInstaller
+Type: Package
+Title: Installer for BAGS Shiny Application and Dependencies
+Version: 0.1.0
+Authors@R: 
+    person(
+      "José", "Lickfold da Silva",
+      email = "lickfold.2003@gmail.com",
+      role = c("aut", "cre")
+    )
+Description: Installs all required dependencies for the BAGS application, 
+    including archived packages, and provides a helper function to launch the app 
+    directly from GitHub.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
