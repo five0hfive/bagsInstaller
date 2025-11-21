@@ -60,7 +60,7 @@ run_bags()
 
 ### Show available commands
 ```r
-bagshelp()
+bagsHelp()
 ```
 
 ---
@@ -71,4 +71,4 @@ bagshelp()
 |---------|-------------|
 | `install_bags_dependencies()` | Installs all CRAN + archived packages needed for BAGS. |
 | `run_bags()` | Launches the BAGS Shiny application. |
-| `bags_help()` | Lists all available helper commands from this package. |
+| `bagsHelp()` | Lists all available helper commands from this package. |
