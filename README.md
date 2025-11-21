@@ -1,7 +1,7 @@
 # bagsInstaller
 
-`bagsInstaller` is a lightweight R package designed to help your colleagues quickly set up all dependencies required for running the BAGS project.  
-It installs CRAN packages, archived packages, checks for Rtools, and provides helper commands to launch the BAGS app with a single line.
+`bagsInstaller` is a lightweight R package designed to help quickly set up all dependencies required for running BAGS.  
+It installs CRAN packages, archived packages, checks for Rtools, and provides helper commands to launch BAGS with a single line.
 
 ---
 
