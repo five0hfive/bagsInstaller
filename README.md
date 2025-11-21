@@ -60,7 +60,7 @@ run_bags()
 
 ### Show available commands
 ```r
-bags_help()
+bagshelp()
 ```
 
 ---
