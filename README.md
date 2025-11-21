@@ -20,3 +20,15 @@ You can install the package directly from the ZIP file downloaded from this repo
 
 ```r
 install.packages("path/to/bagsInstaller.zip", repos = NULL, type = "source")
+
+## 🔧 Usage
+library(bagsInstaller)
+
+# Install all required BAGS dependencies
+install_bags_dependencies()
+
+# Run the BAGS main workflow (if implemented)
+run_bags()
+
+# See all available commands
+bags_help()
