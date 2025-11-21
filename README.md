@@ -5,7 +5,7 @@ It installs CRAN packages, archived packages, checks for Rtools, and provides he
 
 ---
 
-## 📦 Features
+## Features
 
 - Automatically installs required CRAN packages
 - Installs archived packages (seqRFLP, worms, bold)
@@ -14,7 +14,7 @@ It installs CRAN packages, archived packages, checks for Rtools, and provides he
 
 ---
 
-# 🔧 Installation Options
+#  Installation Options
 
 You can install this package in two ways:
 
