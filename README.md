@@ -20,7 +20,7 @@ You can install this package in two ways:
 
 ---
 
-## Option A — Install directly from GitHub (recommended)
+## Option A — Install directly from GitHub (easier)
 
 First install `devtools` (only needed once):
 
