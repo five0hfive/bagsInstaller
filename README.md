@@ -65,7 +65,7 @@ bagsHelp()
 
 ---
 
-# 🧩 Available Functions
+# Available Functions
 
 | Function | Description |
 |---------|-------------|
