@@ -47,7 +47,10 @@ install.packages("C:/path/to/bagsInstaller.zip", repos = NULL, type = "source")
 ---
 
 #  Usage
-
+### Don't forget to load the package!
+```r
+library(bagsInstaller)
+```
 ### Install all required dependencies
 ```r
 install_bags_dependencies()
